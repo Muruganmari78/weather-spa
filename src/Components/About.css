@@ -1,0 +1,31 @@
+.about-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-container h1 {
+  margin-bottom: 20px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  padding: 8px 0;
+}
+
+.tech-stack {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .about-container {
+    padding: 20px;
+  }
+}
